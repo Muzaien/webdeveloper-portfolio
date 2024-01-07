@@ -17,7 +17,20 @@ body {
     font-weight: 700px;
     padding: 15px 35px;
 }
+.section-title{
+    color: var(--dark-01, #181818);
+    text-align: cent;
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 
+}
 /* nav related style */
 nav {
     display: flex;
@@ -58,7 +71,30 @@ nav a {
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-contet{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* main section styles*/
+
+/* about section*/
+.about{
+    padding: 130px;
+    background-color: #fff3f3;
+    margin: 130px 0;
 }
